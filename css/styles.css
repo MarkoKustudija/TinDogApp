@@ -15,7 +15,7 @@ body{
 }
 
 h1 {
-  font-weight: bold;
+
   /* font-family: "Montserrat-Black"; */
   font-weight: bold;
   font-size: 3.5rem;
@@ -109,9 +109,13 @@ p{
   margin: 20px;
 }
 .carousel-item{
-
     padding: 7% 15%;
-
+}
+.dog-text{
+  font-weight: bold;
+}
+.testimonial-text{
+  font-weight: bold;
 }
 
 /* Press section */
@@ -135,6 +139,34 @@ p{
 }
 .pricing-column{
   padding: 3% 2%;
+}
+
+
+/* Call to Action */
+
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.cta-heading{
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Footer */
+#footer{
+    background-color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.social{
+
+  margin: 20px 10px;
 }
 
 @media (max-width:1028px){
